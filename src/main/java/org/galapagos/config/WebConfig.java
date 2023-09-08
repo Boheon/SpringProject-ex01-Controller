@@ -1,6 +1,7 @@
 package org.galapagos.config;
 
 import javax.servlet.Filter;
+import javax.servlet.ServletRegistration;
 
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
@@ -32,6 +33,12 @@ public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitiali
         
         return new Filter[] {characterEncodingFilter};
     }
+
+	@Override
+	protected void customizeRegistration(ServletRegistration.Dynamic registration) {
+		registration.setInitParameter("throwExceptionIfNoHandlerFound", "true");
+
+	}
 	
 }
 

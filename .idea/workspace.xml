@@ -9,14 +9,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bf6f1d7-951c-40e0-acb4-cc98aecbc5b9" name="변경" comment="" />
+    <list default="true" id="2bf6f1d7-951c-40e0-acb4-cc98aecbc5b9" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/galapagos/exception/CommonExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sample/exUpload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/galapagos/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/galapagos/config/ServletConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/galapagos/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/galapagos/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/galapagos/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/galapagos/controller/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/galapagos/config/ServletConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/galapagos/config/ServletConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/galapagos/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/galapagos/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/galapagos/controller/SampleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/galapagos/controller/SampleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/controller-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/org/galapagos/config/ServletConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/controller-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/org/galapagos/config/ServletConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/controller-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/org/galapagos/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/controller-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/org/galapagos/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/controller-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/org/galapagos/controller/SampleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/controller-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/org/galapagos/controller/SampleController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../base" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -32,11 +55,14 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2V45g4aR67fln5yaSh0xAZvvBt3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,6 +80,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "dab438040c8be7327514ddc8b7bb609f",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -155,7 +182,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694082636417</updated>
-      <workItem from="1694082643324" duration="876000" />
+      <workItem from="1694082643324" duration="1210000" />
+      <workItem from="1694132834859" duration="10097000" />
     </task>
     <servers />
   </component>
